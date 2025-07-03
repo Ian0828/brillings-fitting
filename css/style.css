@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #C4A484;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  padding: 5px;
+  background: #ccc;
+}
+nav a:hover {
+  background: #aaa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 40px 20px;
+}
