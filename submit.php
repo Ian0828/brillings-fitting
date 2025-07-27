@@ -1,10 +1,4 @@
 <?php
-if ($_POST['fullname'] && $_POST['email'] && $_POST['comment']) {
-  header('Location: thankyou.html');
-  exit();
-}
-?>
-<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($_POST['fullname']) && !empty($_POST['email']) && !empty($_POST['comment'])) {
         header("Location: thankyou.html");
@@ -14,5 +8,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     echo "Invalid request.";
+}
+?>
+<?php
+if ($_POST['fullname'] && $_POST['email'] && $_POST['comment']) {
+  header('Location: thankyou.html');
+  exit();
 }
 ?>
