@@ -21,3 +21,11 @@ nav a:hover {
   margin: 0 auto; /* Center the container horizontally */
   padding: 40px 20px;
 }
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 16px;
+}
