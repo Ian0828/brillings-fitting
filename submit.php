@@ -10,9 +10,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Invalid request.";
 }
 ?>
-<?php
-if ($_POST['fullname'] && $_POST['email'] && $_POST['comment']) {
-  header('Location: thankyou.html');
-  exit();
-}
-?>
